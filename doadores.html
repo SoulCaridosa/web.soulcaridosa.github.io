@@ -80,27 +80,138 @@
   </div>
 </nav>
 
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<table align="center" border="0">
-  <tr>
-    <td align="center"><img style="width:40%;" src="./img/loading.gif" /></td>
-  </tr>
-  <tr>
-    <td align="center"><b>soul.caridosa@outlook.com</b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>11 98620-5777</b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Em Construção...</b></td>
-  </tr>
-</table>
-
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
+<form class="forms">
+  <div class="form-group row">
+    <label for="inputName3" class="col-sm-2 col-form-label">Nome</label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="inputName3" placeholder="Seu Nome">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputAge3" class="col-sm-2 col-form-label">Idade</label>
+    <div class="col-sm-2">
+      <input type="age" class="form-control" id="inputAge3" placeholder="Sua Idade">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputAddress3" class="col-sm-2 col-form-label">Endereço</label>
+    <div class="col-sm-10">
+      <input type="address" class="form-control" id="inputAddress3" placeholder="Seu Endereço">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Entrega da Doação</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridDelivery" id="gridDelivery1" value="option1" checked>
+          <label class="form-check-label" for="gridDelivery1">
+            Eu entrego no endereço: Rua Julião Afonso Serra, 49 casa 2
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridDelivery" id="gridDelivery2" value="option2">
+          <label class="form-check-label" for="gridDelivery2">
+            Prefiro que busquem no meu endereço.
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+          <label class="form-check-label" for="gridRadios3">
+            Eu entrego em outro endereço.
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label" for="inputPhone">Telefone de contato</label>
+      <div class="col-sm-3">
+      <input type="phone" name="telefone" class="form-control" id="inputPhone" placeholder="Ex. (11) 98620-5777">
+      </div>
+    </div>
+<!--  <form id="live_form">-->
+<!--    <div class="form-group">-->
+<!--      <label class="control-label ">-->
+<!--        How would you rate your experience with us?-->
+<!--      </label>-->
+<!--        <div class="radio">-->
+<!--          <label class="radio">-->
+<!--            <input name="rating" type="radio" value="Very Good"/>-->
+<!--            Very Good-->
+<!--          </label>-->
+<!--        </div>-->
+<!--        <div class="radio">-->
+<!--          <label class="radio">-->
+<!--            <input name="rating" type="radio" value="Excellent"/>-->
+<!--            Excellent-->
+<!--          </label>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="form-group hidden">-->
+<!--      <label class="control-label" for="feedback_bad">-->
+<!--        We're sorry to hear you had a bad experience.  What went wrong?-->
+<!--      </label>-->
+<!--      <textarea class="form-control" cols="40" id="feedback_bad" name="feedback_bad" rows="10"></textarea>-->
+<!--    </div>-->
+<!--    <div class="form-group hidden">-->
+<!--      <label class="control-label" for="feedback_ok">-->
+<!--        Please tell us what you liked and how we can improve:-->
+<!--      </label>-->
+<!--      <textarea class="form-control form-control" cols="40" id="feedback_ok" name="feedback_ok" rows="10"></textarea>-->
+<!--    </div>-->
+<!--    <div class="form-group hidden" id="div_testimonial">-->
+<!--      <div>-->
+<!--        <label class="control-label " for="testimonial">-->
+<!--          Wonderful!  We're so glad to hear that.  Would you be willing to write a customer comment for our website?-->
+<!--        </label>-->
+<!--        <div>-->
+<!--          <label class="radio-inline">-->
+<!--            <input name="testimonial" type="radio" value="yes"/>-->
+<!--            Sure!-->
+<!--          </label>-->
+<!--          <label class="radio-inline">-->
+<!--            <input name="testimonial" type="radio" value="no"/>-->
+<!--            I'd rather not.-->
+<!--          </label>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="form-group hidden">-->
+<!--      <label class="control-label " for="feedback_great">-->
+<!--        Thank you so much!  Please leave your testimonial here:-->
+<!--      </label>-->
+<!--      <textarea class="form-control" cols="40" id="feedback_great" name="feedback_great" rows="10"></textarea>-->
+<!--    </div>-->
+<!--    <div class="form-group hidden" id="thanks_anyway">-->
+<!--      <label class="control-label">-->
+<!--        No problem, thanks for being a customer!-->
+<!--      </label>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <button class="btn btn-primary " name="submit" type="submit">-->
+<!--        Submit-->
+<!--      </button>-->
+<!--    </div>-->
+<!--  </form>-->
+  <div class="form-group row">
+    <div class="col-sm-2">Checkbox</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+</form>
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
@@ -109,6 +220,10 @@
   </div>
   <!-- /.container -->
 </footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

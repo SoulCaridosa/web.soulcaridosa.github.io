@@ -28,3 +28,12 @@ body {
 .carousel-item {
  background-image: url(../img/alimento.jpeg);
 }
+
+.forms {
+padding: 5%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+width: 65%;
+}
